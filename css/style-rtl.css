@@ -1,0 +1,28 @@
+[dir="rtl"] .products{
+    float: right;
+}
+[dir="rtl"] .products-filter{
+    float: left;
+}
+[dir="rtl"] .product-item-img{
+    margin-left: 10px;
+    margin-right: 0;
+}
+[dir="rtl"] .product-item-action{
+    text-align: left;
+}
+[dir="rtl"] .add-to-cart{
+    margin-right: auto;
+    margin-left: 0;
+}
+[dir="rtl"] .favorite{
+    margin-right: auto;
+    margin-left: 0;
+}
+[dir="rtl"] .create-product-btn{
+    right: auto;
+    left: 35px;
+}
+[dir="rtl"] nav ul#user-info li .cart-products{
+    transform: translateX(35%);
+}

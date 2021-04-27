@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.create-product-page input,
+.create-product-page select{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    outline: 0;
+    border: 1px solid #999;
+    border-radius: 6px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.create-product-page input[type=submit]{
+    background: #333;
+    color: white;
+    cursor: pointer;
+}
